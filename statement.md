@@ -1,4 +1,4 @@
-# 📄 Project Statement — Student Record Management System
+# 📄 Project Statement — Academic Record Management System
 
 ## 📝 Problem Statement
 Educational institutions often need a simple, reliable, and efficient method to manage important student information such as **Name**, **Course**, **CGPA**, and **State**.  
