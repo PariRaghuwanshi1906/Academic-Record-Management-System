@@ -65,7 +65,7 @@ This project delivers a **Python-based Command Line Student Record Management Sy
 
 ---
 
-## ⚙️ High-Level Functional Features
+## ⚙️ High Level Functional Features
 
 ### 📋 Core System Capabilities
 
