@@ -1,3 +1,13 @@
+<div align="center">
+
+## Academic Record Management System  
+### Python | CLI | CRUD-Based Record Handling  
+
+---
+
+</div>
+
+ 
  # 📘 Academic Record Management System
 
 ## 📌 Overview
@@ -30,36 +40,45 @@ Python’s readability and flexibility make it ideal for building simple and int
 
 ---
 
-## 🚀 How to Install and Run the Project
-1. Make sure **Python 3** is installed on your computer.  
-2. Download or clone the repository:  
-   ```bash
-   git clone <repository-url>
-   🧪 How to Test the Application
+**Steps to Install & Run the Project** 1. 
 
-Run the program.
+1. Clone the repository:
 
-Choose an option from the displayed menu:
+git clone https://github.com/PariRaghuwanshi1906/Academic-Record-Management-System.git
 
-1 → Add Student
 
-2 → Search Student
+2. Navigate to the project directory:
 
-3 → Update Student
+cd Academic-Record-Management-System
 
-4 → Delete Student
 
-5 → Display All Students
+3. Run the application:
 
-6 → Exit the Program
+python "academic record management.py"
 
-Try out each option by entering realistic student information.
+**Instructions for Testing**
+After running the script, the main menu will appear with the following options:
 
-Check whether the system correctly performs add, search, update, delete, and display functions.
+1. Add Student
+2. Search Student
+3. Update Student
+4. Delete Student
+5. Display All Students
+6. Exit
 
-This ensures all CRUD operations are functioning properly.
+## Recommended steps for testing:
+1. Add multiple sample students
+2. Search for a student using registration number
+3. Update specific fields such as course or CGPA
+4. Delete a record and confirm removal
+5. Display all student records to verify data formatting
+6. Exit the application and re-run if required
+   
+These steps ensure all CRUD operations function correctly.
 
-📄 Additional Notes
+Ensure Python 3 is installed on your system before running the script.
+
+## 📄 Additional Notes
 
 This project is especially valuable for:
 
@@ -72,3 +91,103 @@ This project is especially valuable for:
 📚 Academic assignments, demonstrations, or workshops
 
 It lays the foundation for more advanced systems that may include file handling, databases, GUIs, or web interfaces
+
+**Screenshots**
+1) Main Menu
+──────────────────────────────────────────────
+            STUDENT RECORD MANAGEMENT
+──────────────────────────────────────────────
+1. Add Student
+2. Search Student
+3. Update Student
+4. Delete Student
+5. Display All Students
+6. Exit
+──────────────────────────────────────────────
+Enter your choice: _
+
+2) Adding a Student
+──────────────────────────────────────────────
+                ADD NEW STUDENT
+──────────────────────────────────────────────
+Enter Registration Number : 101
+Enter Name                : Priya Sharma
+Enter Course              : B.Tech CSE
+Enter CGPA                : 8.9
+Enter State               : Madhya Pradesh
+──────────────────────────────────────────────
+Student record added successfully.
+
+3) Searching for a Student
+──────────────────────────────────────────────
+                 SEARCH STUDENT
+──────────────────────────────────────────────
+Enter Registration Number : 101
+
+Record Found:
+──────────────────────────────────────────────
+Registration Number : 101
+Name                : Priya Sharma
+Course              : B.Tech CSE
+CGPA                : 8.9
+State               : Madhya Pradesh
+──────────────────────────────────────────────
+
+4)Updating a Student Record
+──────────────────────────────────────────────
+                 UPDATE RECORD
+──────────────────────────────────────────────
+Enter Registration Number : 101
+
+Select the field to update:
+1. Name
+2. Course
+3. CGPA
+4. State
+──────────────────────────────────────────────
+Enter your choice: 2
+Enter new Course: B.Tech AI & DS
+──────────────────────────────────────────────
+Record updated successfully.
+
+5) Deleting a Student
+──────────────────────────────────────────────
+                 DELETE RECORD
+──────────────────────────────────────────────
+Enter Registration Number : 101
+Record deleted successfully.
+──────────────────────────────────────────────
+
+6)Displaying All Students
+──────────────────────────────────────────────
+               ALL STUDENT RECORDS
+──────────────────────────────────────────────
+
+Reg No : 101
+Name   : Priya Sharma
+Course : B.Tech CSE
+CGPA   : 8.9
+State  : Madhya Pradesh
+──────────────────────────────────────────────
+
+Reg No : 102
+Name   : Aditya Verma
+Course : BCA
+CGPA   : 8.2
+State  : Rajasthan
+──────────────────────────────────────────────
+
+7)Exit Message
+──────────────────────────────────────────────
+Exiting the program...
+Thank you for using the Student Record Management System.
+──────────────────────────────────────────────
+
+** Future Enhancements**
+Potential upgrades include:
+1. File handling or database integration for permanent storage
+2. Graphical interface using Tkinter or PyQt
+3. Web-based version using Flask or Django
+4. Data export to CSV/JSON
+5. Input validation and error handling
+6. Modularized code structure
