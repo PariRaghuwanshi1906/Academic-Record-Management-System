@@ -1,7 +1,7 @@
-# 📄 Project Statement — Academic Record Management System
+# 📄 Project Statement - Academic Record Management System
 
 ## 🎯 Problem Statement
-Educational institutions face significant challenges in managing student academic records efficiently. Traditional manual record-keeping systems present multiple limitations:
+Educational institutions face significant challenges in managing student academic records efficiently. Data is stored in memory during execution and is not persisted after program exit. Traditional manual record-keeping systems present multiple limitations:
 
 ### Key Challenges Addressed:
 - **❌ Data Inconsistency:** Manual entry leads to errors and unreliable records
