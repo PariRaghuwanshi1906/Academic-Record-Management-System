@@ -12,31 +12,55 @@
 
 ## 📌 Overview
 The **Student Record Management System** is a beginner-friendly yet practical **Python CLI application** designed to help users manage essential student information efficiently.  
-By using a simple text-based interface, this project allows users to handle student data such as **Name**, **Course**, **CGPA**, and **State** in an organized manner.  
+By using a simple text-based interface, this project allows users to handle student data such as **Name**, **Course**, **CGPA**, and **State** in an organized manner. A web-based application to manage student academic records - including CGPA, SGPA, attendance, and course-wise marks. Designed for students, faculty, or academic advisors to easily add, view, update, and delete records.
 It also serves as an excellent learning project for anyone looking to understand and practice core Python concepts including **functions**, **loops**, **dictionaries**, **condition checks**, and **interactive user input handling**.
 
-This project is lightweight, easy to run, and perfect for students, educators, and developers exploring their first steps into Python-based data management systems.
+This project is lightweight, easy to run, and perfect for students, educators, and developers exploring their first steps into Python-based data management systems. 
 
 ---
 
+
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Setup Instructions](#setup-instructions)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Database Setup](#database-setup)
+- [How to Use](#how-to-use)
+- [Screenshots](#screenshots)
+- [Assumptions & Limitations](#assumptions--limitations)
+- [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+
+## Technologies Used
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5
+- **Backend:** PHP 7+
+- **Database:** MySQL
+- **Server:** XAMPP / WAMP / LAMP
+
+  Python’s readability and flexibility make it ideal for building simple and interactive management systems like this one
+
+
+
 ## ⭐ Key Features
-- ➕ **Add Student:** Register a new student with detailed information.  
-- 🔍 **Search Student:** Find any student using their unique registration number.  
-- ✏️ **Update Details:** Modify existing student information without re-entering all fields.  
+- ➕ **Add Student:** Register a new student with detailed information (name, roll number, subject marks, attendance, SGPA, CGPA)/
+- 🔍 **Search Student:** Find any student using their unique registration number.
+- View all records in a sortable table
+- ✏️ **Update Existing Records:** Modify existing student information without re-entering all fields.  
 - 🗑️ **Delete Record:** Remove a student’s data when it’s no longer needed.  
 - 📋 **Display All Students:** View every stored student record in a clean, readable format.  
 - 🖥️ **User-Friendly CLI:** Simple menu-driven interface that guides users step-by-step.
+- Simple and responsive UI using Bootstrap
+- PHP backend with MySQL database
+
 
 These features together create a smooth and intuitive experience, even for first-time users.
 
----
-
-## 🛠️ Technologies / Tools Used
-- 🐍 **Python 3**  
-- 💻 **Command Line Interface (CLI)**  
-- 🧩 **Dictionaries** for in-memory data management  
-
-Python’s readability and flexibility make it ideal for building simple and interactive management systems like this one.
 
 ---
 
@@ -92,7 +116,10 @@ This project is especially valuable for:
 
 It lays the foundation for more advanced systems that may include file handling, databases, GUIs, or web interfaces
 
+
 **Screenshots**
+
+```
 1) Main Menu
 ──────────────────────────────────────────────
             STUDENT RECORD MANAGEMENT
@@ -106,6 +133,7 @@ It lays the foundation for more advanced systems that may include file handling,
 ──────────────────────────────────────────────
 Enter your choice: _
 
+
 2) Adding a Student
 ──────────────────────────────────────────────
                 ADD NEW STUDENT
@@ -117,6 +145,7 @@ Enter CGPA                : 8.9
 Enter State               : Madhya Pradesh
 ──────────────────────────────────────────────
 Student record added successfully.
+
 
 3) Searching for a Student
 ──────────────────────────────────────────────
@@ -133,7 +162,8 @@ CGPA                : 8.9
 State               : Madhya Pradesh
 ──────────────────────────────────────────────
 
-4)Updating a Student Record
+
+4) Updating a Student Record
 ──────────────────────────────────────────────
                  UPDATE RECORD
 ──────────────────────────────────────────────
@@ -150,6 +180,7 @@ Enter new Course: B.Tech AI & DS
 ──────────────────────────────────────────────
 Record updated successfully.
 
+
 5) Deleting a Student
 ──────────────────────────────────────────────
                  DELETE RECORD
@@ -158,7 +189,8 @@ Enter Registration Number : 101
 Record deleted successfully.
 ──────────────────────────────────────────────
 
-6)Displaying All Students
+
+6) Displaying All Students
 ──────────────────────────────────────────────
                ALL STUDENT RECORDS
 ──────────────────────────────────────────────
@@ -177,11 +209,13 @@ CGPA   : 8.2
 State  : Rajasthan
 ──────────────────────────────────────────────
 
-7)Exit Message
+
+7) Exit Message
 ──────────────────────────────────────────────
 Exiting the program...
 Thank you for using the Student Record Management System.
 ──────────────────────────────────────────────
+```
 
 ** Future Enhancements**
 Potential upgrades include:
