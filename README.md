@@ -44,6 +44,12 @@ This project is lightweight, easy to run, and perfect for students, educators, a
 ## ❗ Problem Statement
 Managing student records manually is time-consuming and prone to errors. This project provides a simple digital solution for efficient academic record management.
 
+
+## 🎯 Why This Project Matters
+
+This project demonstrates how simple programming concepts can be applied to solve real-world problems like data management, improving efficiency and reducing manual errors.
+
+
 ## ⭐ Key Features
 - ➕ **Add Student:** Register a new student with detailed information (Registration Number, Name, Course, CGPA, State)
 - 🔍 **Search Student:** Find any student using their unique registration number.
@@ -62,7 +68,7 @@ These features together create a smooth and intuitive experience, even for first
 
 ```
 Academic-Record-Management-System/
-├── academic record management.py   # Main script
+├── academic_record_management.py   # Main script
 └── README.md
 ```
 
@@ -125,7 +131,12 @@ This project is especially valuable for:
 
 📚 Academic assignments, demonstrations, or workshops
 
-It lays the foundation for more advanced systems that may include file handling, databases, GUIs, or web interfaces
+It lays the foundation for more advanced systems that may include file handling, databases, GUIs, or web interfaces.
+
+## 📸 Output Screenshots
+
+![Main Menu](screenshots/main-menu.png)
+![Add Student](screenshots/add-student.png)
 
 
 ## 📝 How to Use  (Example Run)
@@ -242,6 +253,16 @@ Designed for single‑session use or learning purposes.
 The script assumes Python 3 is properly installed.
 
 
+## 📚 Learning Outcomes
+
+Through this project, I learned:
+- Implementation of CRUD operations using Python
+- Use of dictionaries for data storage
+- Handling user input and building interactive CLI applications
+- Structuring a complete project with proper documentation
+
+  
+
 ## Future Enhancements
 Potential upgrades include:
 1. File handling or database integration for permanent storage
@@ -257,4 +278,6 @@ This project is for educational purposes. Feel free to use and modify.
 
 ## 👤 Author
 
-Suhani Singh Parihar – [GitHub Profile](https://github.com/PariRaghuwanshi1906)
+**Suhani Singh Parihar**  
+B.Tech CSE (AI & ML), VIT Bhopal  
+[GitHub Profile](https://github.com/PariRaghuwanshi1906)
