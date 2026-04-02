@@ -217,7 +217,7 @@ Thank you for using the Student Record Management System.
 ──────────────────────────────────────────────
 ```
 
-** Future Enhancements**
+## Future Enhancements
 Potential upgrades include:
 1. File handling or database integration for permanent storage
 2. Graphical interface using Tkinter or PyQt
