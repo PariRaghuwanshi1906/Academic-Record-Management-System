@@ -28,10 +28,8 @@ This project is lightweight, easy to run, and perfect for students, educators, a
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [How to Use](#how-to-use)
-- [Screenshots](#screenshots)
 - [Assumptions & Limitations](#assumptions--limitations)
 - [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -75,11 +73,11 @@ Academic-Record-Management-System/
 
 
 
-**Steps to Install & Run the Project** 1. 
+**Steps to Install & Run the Project** 
 
 1. Clone the repository:
 
-git clone https://github.com/PariRaghuwanshi1906/Academic-Record-Management-System.git
+bash<br>git clone ...<br> https://github.com/PariRaghuwanshi1906/Academic-Record-Management-System.git
 
 
 2. Navigate to the project directory:
@@ -234,7 +232,7 @@ Thank you for using the Student Record Management System.
 ```
 
 
-##**⚠️ Assumptions & Limitations**
+## ⚠️ Assumptions & Limitations
 No permanent storage – Data is stored in memory only. All records are lost when the program exits.
 
 No input validation (e.g., CGPA range, empty names) – you may add it later.
@@ -259,4 +257,4 @@ This project is for educational purposes. Feel free to use and modify.
 
 ## 👤 Author
 
-Your Name – [Pari Raghuwanshi] – [GitHub Profile](https://github.com/PariRaghuwanshi1906)
+Suhani Singh Parihar – [GitHub Profile](https://github.com/PariRaghuwanshi1906)
