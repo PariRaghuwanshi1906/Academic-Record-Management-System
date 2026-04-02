@@ -27,7 +27,6 @@ This project is lightweight, easy to run, and perfect for students, educators, a
 - [Setup Instructions](#setup-instructions)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Database Setup](#database-setup)
 - [How to Use](#how-to-use)
 - [Screenshots](#screenshots)
 - [Assumptions & Limitations](#assumptions--limitations)
@@ -44,11 +43,12 @@ This project is lightweight, easy to run, and perfect for students, educators, a
   Python’s readability and flexibility make it ideal for building simple and interactive management systems like this one
 
 
+## ❗ Problem Statement
+Managing student records manually is time-consuming and prone to errors. This project provides a simple digital solution for efficient academic record management.
 
 ## ⭐ Key Features
-- ➕ **Add Student:** Register a new student with detailed information (name, roll number, subject marks, attendance, SGPA, CGPA)/
+- ➕ **Add Student:** Register a new student with detailed information (Registration Number, Name, Course, CGPA, State)
 - 🔍 **Search Student:** Find any student using their unique registration number.
- 
 - ✏️ **Update Existing Records:** Modify existing student information without re-entering all fields.  
 - 🗑️ **Delete Record:** Remove a student’s data when it’s no longer needed.  
 - 📋 **Display All Students:** View every stored student record in a clean, readable format.  
@@ -108,8 +108,9 @@ After running the script, the main menu will appear with the following options:
 3. Update specific fields such as course or CGPA
 4. Delete a record and confirm removal
 5. Display all student records to verify data formatting
-6. Exit the application and re-run if required
-   
+6. Exit the application and re-run if required (data resets – see limitations below).
+
+    
 These steps ensure all CRUD operations function correctly.
 
 Ensure Python 3 is installed on your system before running the script.
@@ -129,7 +130,7 @@ This project is especially valuable for:
 It lays the foundation for more advanced systems that may include file handling, databases, GUIs, or web interfaces
 
 
-## 📝 How to Use
+## 📝 How to Use  (Example Run)
 
 After running, the main menu appears:
 
@@ -232,6 +233,17 @@ Thank you for using the Student Record Management System.
 ──────────────────────────────────────────────
 ```
 
+
+##**⚠️ Assumptions & Limitations**
+No permanent storage – Data is stored in memory only. All records are lost when the program exits.
+
+No input validation (e.g., CGPA range, empty names) – you may add it later.
+
+Designed for single‑session use or learning purposes.
+
+The script assumes Python 3 is properly installed.
+
+
 ## Future Enhancements
 Potential upgrades include:
 1. File handling or database integration for permanent storage
@@ -243,7 +255,7 @@ Potential upgrades include:
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is for educational purposes. Feel free to use and modify.
 
 ## 👤 Author
 
