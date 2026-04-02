@@ -12,7 +12,7 @@
 
 ## 📌 Overview
 The **Student Record Management System** is a beginner-friendly yet practical **Python CLI application** designed to help users manage essential student information efficiently.  
-By using a simple text-based interface, this project allows users to handle student data such as **Name**, **Course**, **CGPA**, and **State** in an organized manner. A web-based application to manage student academic records - including CGPA, SGPA, attendance, and course-wise marks. Designed for students, faculty, or academic advisors to easily add, view, update, and delete records.
+By using a simple text-based interface, this project allows users to handle student data such as **Name**, **Course**, **CGPA**, and **State** in an organized manner. 
 It also serves as an excellent learning project for anyone looking to understand and practice core Python concepts including **functions**, **loops**, **dictionaries**, **condition checks**, and **interactive user input handling**.
 
 This project is lightweight, easy to run, and perfect for students, educators, and developers exploring their first steps into Python-based data management systems. 
@@ -38,10 +38,8 @@ This project is lightweight, easy to run, and perfect for students, educators, a
 
 
 ## Technologies Used
-- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5
-- **Backend:** PHP 7+
-- **Database:** MySQL
-- **Server:** XAMPP / WAMP / LAMP
+- Python 3.x
+- Standard libraries (no external dependencies)
 
   Python’s readability and flexibility make it ideal for building simple and interactive management systems like this one
 
@@ -50,19 +48,32 @@ This project is lightweight, easy to run, and perfect for students, educators, a
 ## ⭐ Key Features
 - ➕ **Add Student:** Register a new student with detailed information (name, roll number, subject marks, attendance, SGPA, CGPA)/
 - 🔍 **Search Student:** Find any student using their unique registration number.
-- View all records in a sortable table
+ 
 - ✏️ **Update Existing Records:** Modify existing student information without re-entering all fields.  
 - 🗑️ **Delete Record:** Remove a student’s data when it’s no longer needed.  
 - 📋 **Display All Students:** View every stored student record in a clean, readable format.  
 - 🖥️ **User-Friendly CLI:** Simple menu-driven interface that guides users step-by-step.
-- Simple and responsive UI using Bootstrap
-- PHP backend with MySQL database
+  
 
 
 These features together create a smooth and intuitive experience, even for first-time users.
 
-
 ---
+
+## 📁 Project Structure
+
+```
+Academic-Record-Management-System/
+├── academic record management.py   # Main script
+└── README.md
+```
+
+## 🚀 Setup & Run
+
+### Prerequisites
+- Python 3 installed on your system
+
+
 
 **Steps to Install & Run the Project** 1. 
 
@@ -79,6 +90,7 @@ cd Academic-Record-Management-System
 3. Run the application:
 
 python "academic record management.py"
+
 
 **Instructions for Testing**
 After running the script, the main menu will appear with the following options:
@@ -117,7 +129,10 @@ This project is especially valuable for:
 It lays the foundation for more advanced systems that may include file handling, databases, GUIs, or web interfaces
 
 
-**Screenshots**
+## 📝 How to Use
+
+After running, the main menu appears:
+
 
 ```
 1) Main Menu
@@ -225,3 +240,11 @@ Potential upgrades include:
 4. Data export to CSV/JSON
 5. Input validation and error handling
 6. Modularized code structure
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+Your Name – [Pari Raghuwanshi] – [GitHub Profile](https://github.com/PariRaghuwanshi1906)
