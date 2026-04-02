@@ -77,7 +77,7 @@ Academic-Record-Management-System/
 
 1. Clone the repository:
 
-bash<br>git clone ...<br> https://github.com/PariRaghuwanshi1906/Academic-Record-Management-System.git
+git clone https://github.com/PariRaghuwanshi1906/Academic-Record-Management-System.git
 
 
 2. Navigate to the project directory:
